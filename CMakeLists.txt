@@ -11,11 +11,9 @@ if(${ENABLE_EXAMPLES})
 endif()
 
 build_lib(
-    LIBNAME new-module
-    SOURCE_FILES model/new-module.cc
-                 helper/new-module-helper.cc
-    HEADER_FILES model/new-module.h
-                 helper/new-module-helper.h
+    LIBNAME load-balancing
+    SOURCE_FILES model/ipv4-drill-routing-protocol.cc
+    HEADER_FILES model/ipv4-drill-routing-protocol.h
     LIBRARIES_TO_LINK ${libcore}
     TEST_SOURCES test/new-module-test-suite.cc
                  ${examples_as_tests_sources}
