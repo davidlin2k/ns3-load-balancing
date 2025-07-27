@@ -15,6 +15,9 @@ build_lib(
     SOURCE_FILES model/ipv4-drill-routing-protocol.cc
     HEADER_FILES model/ipv4-drill-routing-protocol.h
     LIBRARIES_TO_LINK ${libcore}
+                      ${libinternet}
+                      ${libinternet-apps}
+                      ${libpoint-to-point}
     TEST_SOURCES test/new-module-test-suite.cc
                  ${examples_as_tests_sources}
 )

@@ -1,5 +1,5 @@
 // Include a header file from your module to test.
-#include "ns3/new-module.h"
+#include "ns3/ipv4-drill-routing-protocol.h"
 
 // An essential include is test.h
 #include "ns3/test.h"
